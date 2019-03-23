@@ -10,7 +10,9 @@ test_string2 = "Supercalifraglistic"
 test_string3 = "90210"
 
 result = "".join([c for c in test_string1 if c in string.ascii_letters])
-print(result)
+# print(result)
+#
+# print(test_string1.isalnum())
+# print(test_string2.isalpha())
 
-print(test_string1.isalnum())
-print(test_string2.isalpha())
+print(all([c.isalpha() for c in test_string1])
