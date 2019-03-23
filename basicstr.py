@@ -16,3 +16,5 @@ result = "".join([c for c in test_string1 if c in string.ascii_letters])
 # print(test_string2.isalpha())
 
 print(all([c.isalpha() for c in test_string1]))
+print(test_string1.isnumeric())
+print(test_string3.isnumeric())
