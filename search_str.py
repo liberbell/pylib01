@@ -10,3 +10,5 @@ print("the" in sampleStr)
 
 newStr = sampleStr.replace("lazy", "tired")
 print(newStr)
+
+print(sampleStr.count("over"))
