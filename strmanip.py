@@ -18,6 +18,8 @@ for name in names:
     print(name.ljust(biggest+2,"-") + ":")
 for name in names:
     print(name.center(biggest+2,"-") + ":")
+for name in names:
+    print(name.rjust(biggest+2,"-") + ":")
 
 # print(biggest)
 
