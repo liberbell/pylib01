@@ -4,3 +4,5 @@ test_string1 = "The quick brown fox jumps over the lazy dog on the 1st of Decemb
 
 names = ["Amy", "John", "George", "Michels", "Penelope"]
 biggest = max(len(name) for name in names)
+
+sampleStr = "The quick brown fox jumps over the lazy dog"
