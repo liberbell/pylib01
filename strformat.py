@@ -16,6 +16,7 @@ foo = "foo"
 bar = 123
 print("Output: {} {}".format(foo, bar))
 print("Output: {1} {0}".format(foo, bar))
+print("Output: {var1} {var2}".format(var1=foo, var2=bar))
 
 product = "Widget"
 price = 19.99
