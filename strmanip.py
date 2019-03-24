@@ -16,6 +16,8 @@ biggest = max(len(name) for name in names)
 
 for name in names:
     print(name.ljust(biggest+2,"-") + ":")
+for name in names:
+    print(name.center(biggest+2,"-") + ":")
 
 # print(biggest)
 
