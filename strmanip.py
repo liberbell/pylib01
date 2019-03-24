@@ -27,4 +27,4 @@ sampleStr = "The quick brown fox jumps over the lazy dog"
 trans_table = str.maketrans("abegilostz", "4636110572")
 
 print(sampleStr)
-print(sampleStr.translate(trans_table)
+print(sampleStr.translate(trans_table))
