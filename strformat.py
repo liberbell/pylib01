@@ -15,6 +15,7 @@ print(output_str)
 foo = "foo"
 bar = 123
 print("Output: {} {}".format(foo, bar))
+print("Output: {1} {0}".format(foo, bar))
 
 product = "Widget"
 price = 19.99
