@@ -25,4 +25,4 @@ price = 19.99
 tax = 0.07
 nyd = datetime.datetime(2019,1,1)
 print(nyd)
-print("{product} has a price of {price}, with tax {tax:.2f}")
+print("{product} has a price of {price}, with tax {tax:.2%} the total is {round(price+(price*tax),2)}")
