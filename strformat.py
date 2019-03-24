@@ -1,4 +1,5 @@
 from string import Template
+import datetime
 
 the_str = "The quick brown $animal $action over the lazy dog"
 the_templage = Template(the_str)
@@ -22,3 +23,5 @@ print("Output: {var2:x}, {var2:X}, {var1}".format(var1=foo, var2=bar))
 product = "Widget"
 price = 19.99
 tax = 0.07
+nyd = datetime.datetime(2019,1,1)
+print(nyd)
