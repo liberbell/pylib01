@@ -14,6 +14,9 @@ print(", ".join(letters))
 names = ["Amy", "John", "George", "Michels", "Penelope"]
 biggest = max(len(name) for name in names)
 
-print(biggest)
+for name in names:
+    print(name.ljust(biggest+2,"-") + ":")
+
+# print(biggest)
 
 sampleStr = "The quick brown fox jumps over the lazy dog"
