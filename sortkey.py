@@ -16,7 +16,7 @@ class Product():
 prodList = [
 Product("Widget", 50, 10, 0.05),
 Product("Dooickey", 40, 8, 0.15),
-Product("Thingamabob", 50, 12, 0.0),
+Product("Thingamabob", 35, 12, 0.0),
 Product("Gadget", 65, 7, 0.20)
 ]
 
