@@ -25,4 +25,4 @@ def prodsort(product):
 
 print(sorted(prodList, key=prodsort))
 
-print(sorted(prodList, key=lambda p:p.price))
+print(sorted(prodList, key=lambda p:p.discountPrice))
