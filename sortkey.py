@@ -24,3 +24,5 @@ def prodsort(product):
     return product.price
 
 print(sorted(prodList, key=prodsort))
+
+print(sorted(prodList, key=lambda p:p.price))
