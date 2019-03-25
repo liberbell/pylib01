@@ -14,7 +14,7 @@ class Product():
         return self.price - (self.price * self.discount)
 
 prodList = [
-Product("Dooickey", 40, 8, 0.15),
+Product("Dooickey", 40, 10, 0.15),
 Product("Widget", 50, 10, 0.05),
 Product("Dooickey", 40, 8, 0.15),
 Product("Thingamabob", 35, 12, 0.0),
