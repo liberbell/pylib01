@@ -1,4 +1,4 @@
-
+import requests
 
 class Product():
     def __init__(self, name, price, weight, discount):
