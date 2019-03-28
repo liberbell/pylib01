@@ -9,4 +9,10 @@ arr1.append(22)
 arr1.extend([24, 26, 28])
 print(arr1)
 
+for i,elem in enumerate(arr1):
+    arr1[i] = elem *2
+
+print(arr1)
+
+
 # arr2 = array('b', [18, 102, 182, 56, 89, 5, 254, 32, 64, 50])
