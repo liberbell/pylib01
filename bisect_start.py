@@ -6,6 +6,7 @@ print(bisect.bisect(values, 25))
 print(bisect.bisect_right(values, 25))
 print(bisect.bisect_left(values, 25))
 
+print(values)
 bisect.insort_right(values, 25)
 print(values)
 
