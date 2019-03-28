@@ -22,3 +22,6 @@ Product("Gadget", 65, 7, 0.20)
 ]
 
 print(sorted(prodList, key=lambda p:p.price))
+
+result = sorted(prodList, key=lambda p:p.weight)
+print(result)
