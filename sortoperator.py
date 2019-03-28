@@ -22,4 +22,4 @@ prodList = [
 ]
 
 print("Using the attrgetter method:")
-print(sorted(prodList))
+print(sorted(prodList, key=attrgetter("weight"), reverse=True))
