@@ -20,3 +20,6 @@ prodList = [
     Product("Widget D", 65, 7, 0.20),
     Product("Widget E", 70, 7, 0.12)
 ]
+
+print("Using the attrgetter method:")
+print(sorted(prodList))
