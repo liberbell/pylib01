@@ -14,4 +14,4 @@ def calsGrade(score):
     i = 0
     return gradeLetters[i]
 
-results = [calsGrade(score=) for score in scores]
+results = [calsGrade(score) for score in scores]
