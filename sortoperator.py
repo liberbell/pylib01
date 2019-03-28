@@ -6,4 +6,9 @@ class Product():
         self.price = price
         self.weight = weight
         self.discount = discount
-        
+
+    def __repr__(self):
+        return repr((self.name, self.price, self.weight))
+
+    def discountPrice(self):
+        return self.price - (self.price * self.discount)
