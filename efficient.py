@@ -14,6 +14,6 @@ print("Array 1 item size is: ", arr1.itemsize)
 #
 # print(arr1)
 
-arr1.insert(0, 1.25)
+# arr1.insert(0, 1.25)
 
-# arr2 = array('b', [18, 102, 182, 56, 89, 5, 254, 32, 64, 50])
+arr2 = array('B', [18, 102, 182, 56, 89, 5, 254, 32, 64, 50])
