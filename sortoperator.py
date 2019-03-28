@@ -23,5 +23,6 @@ prodList = [
 
 print("Using the attrgetter method:")
 print(sorted(prodList, key=attrgetter("weight"), reverse=True))
+print(sorted(prodList, key=methodcaller("discountPrice")))
 
 inventory = [("Widget A", 5), ("Widget B", 2), ("Widget C", 4), ("Widget D", 7), ("Widget E", 4)]
