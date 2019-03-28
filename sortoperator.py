@@ -12,3 +12,11 @@ class Product():
 
     def discountPrice(self):
         return self.price - (self.price * self.discount)
+
+prodList = [
+    Product("Widget A", 50, 10, 0.05),
+    Product("Widget B", 40, 8, 0.15),
+    Product("Widget C", 35, 12, 0.0),
+    Product("Widget D", 65, 7, 0.20),
+    Product("Widget E", 70, 7, 0.12)
+]
