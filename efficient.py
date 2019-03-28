@@ -20,3 +20,8 @@ arr2 = array('B', [18, 102, 182, 56, 89, 5, 254, 32, 64, 50])
 
 print(arr2.typecode)
 print("Array 2 item size is: ", arr2.itemsize)
+
+# arr2.append(300)
+
+list1 = arr2.tolist()
+print(list1)
