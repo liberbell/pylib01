@@ -7,3 +7,10 @@
 with open("testfile.txt", "r") as fp:
     data = fp.read()
     print(data)
+
+with open("testfile.txt", "w") as fp:
+    fp.write("This is data added onto the file\n")
+
+    with open("testfile.txt", "r") as fp:
+        data = fp.read()
+        print(data)
