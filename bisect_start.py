@@ -10,7 +10,7 @@ values = [5, 7, 13, 20, 25, 31, 36, 43, 47, 49, 50, 75]
 bisect.insort_right(values, 25)
 # print(values)
 
-breakpoint = [60, 70, 80, 90]
+breakpoints = [60, 70, 80, 90]
 gradeLetters = 'FDCBA'
 scores = [81, 68, 53, 91, 90, 82, 76, 71, 84]
 
