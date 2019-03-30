@@ -20,3 +20,4 @@ def calsGrade(score):
     return gradeLetters[i]
 
 results = [calsGrade(score) for score in scores]
+print(results)
