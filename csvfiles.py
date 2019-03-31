@@ -1,6 +1,6 @@
 import csv
 
-print(csv.list_dialects)
+print(csv.list_dialects())
 
 def readerSample():
     with open("StockQuotes.csv") as datafile:
