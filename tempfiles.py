@@ -17,7 +17,7 @@ with tempfile.TemporaryFile(mode="w+t") as tfp:
     tfp.seek(0)
     print(tfp.read())
 
-with tempfile.TemporaryFile() as tfp:
+with tempfile.TemporaryFile() as tdp:
     path = os.path.join(tdp, "tempfile.txt")
     tfp = open(path, "w+t")
     tfp.write("This is a temp file in a dir")
