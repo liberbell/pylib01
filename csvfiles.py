@@ -1,5 +1,7 @@
 import csv
 
+print(csv.list_dialects)
+
 def readerSample():
     with open("StockQuotes.csv") as datafile:
         reader = csv.reader(datafile)
@@ -15,4 +17,4 @@ def writeSample():
 # readerSample()
 
 
-useSniffer()
+# useSniffer()
