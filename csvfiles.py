@@ -20,9 +20,10 @@ def useSniffer():
         print(dialect.quotechar)
 
 def writeSample():
-    pass
+    with open("SampleData.csv", mode="w") as csvfile:
+        csvwriter = csv.writer(csvfile)
+        csvwriter.writerow(["Name", "Department", "Location"])
 
 # readerSample()
-
-
-useSniffer()
+# useSniffer()
+writeSample
