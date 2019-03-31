@@ -12,7 +12,7 @@ def useSniffer():
     with open("StockQuotes.csv") as csvfile:
         dialect = csv.Sniffer().sniff(csvfile.read(1024))
         csvfile.seek(0)
-        hashedder = csv.Sniffer().has_header(csvfile)
+        hashedder = csv.Sniffer().has_header(csvfile.read(1024))
 
 def writeSample():
     pass
