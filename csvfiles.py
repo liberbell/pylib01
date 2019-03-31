@@ -29,4 +29,4 @@ def writeSample():
 
 # readerSample()
 # useSniffer()
-writeSample
+writeSample()
