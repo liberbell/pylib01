@@ -13,6 +13,11 @@ def useSniffer():
         dialect = csv.Sniffer().sniff(csvfile.read(1024))
         csvfile.seek(0)
         hashedder = csv.Sniffer().has_header(csvfile.read(1024))
+        csvfile.seek(0)
+        print("Headers found: " + str(hashedder))
+        print(dialect.delimiter)
+        print(dialect.escapechar)
+        print(dialect.quotechar)
 
 def writeSample():
     pass
@@ -20,4 +25,4 @@ def writeSample():
 # readerSample()
 
 
-# useSniffer()
+useSniffer()
