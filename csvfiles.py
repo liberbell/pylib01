@@ -23,6 +23,9 @@ def writeSample():
     with open("SampleData.csv", mode="w") as csvfile:
         csvwriter = csv.writer(csvfile)
         csvwriter.writerow(["Name", "Department", "Location"])
+        csvwriter.writerow(["Jhon Doe", "Accounting", "San Francisco"])
+        csvwriter.writerow(["Jhan Dae", "Engineering", "Seattle"])
+        csvwriter.writerow(["Jim Due", "Human Resources", "New York"])
 
 # readerSample()
 # useSniffer()
