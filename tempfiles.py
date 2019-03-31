@@ -12,10 +12,10 @@ print("gettempprefix: ", tempfile.gettempprefix())
 # f.close()
 # os.remove(tempfp)
 
-with tempfile.TemporaryFile(mode="w+t") as tfp:
-    tfp.write("This is some temp data")
-    tfp.seek(0)
-    print(tfp.read())
+# with tempfile.TemporaryFile(mode="w+t") as tfp:
+#     tfp.write("This is some temp data")
+#     tfp.seek(0)
+#     print(tfp.read())
 
 with tempfile.TemporaryFile() as tdp:
     path = os.path.join(tdp,"tempfile.txt")
