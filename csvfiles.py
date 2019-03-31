@@ -9,7 +9,10 @@ def readerSample():
             print(row)
 
 def useSniffer():
-    pass
+    with open("StockQuotes.csv") as csvfile:
+        dialect = csv.Sniffer().sniff(csvfile.read(1024))
+        csvfile.seek(0)
+        hashedder = csv.Sniffer().has_header(csvfile)
 
 def writeSample():
     pass
