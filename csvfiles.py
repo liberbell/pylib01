@@ -12,4 +12,7 @@ def useSniffer():
 def writeSample():
     pass
 
-readerSample()
+# readerSample()
+
+
+useSniffer()
