@@ -1,7 +1,10 @@
 import csv
 
 def readerSample():
-    pass
+    with open("StockQuotes.csv") as datafile:
+        reader = csv.reader(datafile)
+        for row in reader:
+            print(row) 
 
 def useSniffer():
     pass
