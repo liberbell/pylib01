@@ -17,4 +17,6 @@ zinfo = zfile.getinfo("file1.txt")
 # print(zinfo.file_size)
 # print(zfile.read("file3.txt"))
 
-zfile.extract("file2.txt")
+# zfile.extract("file2.txt")
+
+zfile.extractall()
