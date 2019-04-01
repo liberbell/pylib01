@@ -15,3 +15,4 @@ zfile = zipfile.ZipFile("archive.zip")
 
 zinfo = zfile.getinfo("file1.txt")
 print(zinfo.file_size)
+print(zfile.read())
