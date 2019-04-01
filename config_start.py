@@ -10,3 +10,7 @@ parser.read("config.cfg")
 using_time_travel = parser['DEFAULT']['USETimeTravel']
 print(using_time_travel)
 print(type(using_time_travel))
+
+using_time_travel = bool(parser['DEFAULT']['USETimeTravel'])
+print(using_time_travel)
+print(type(using_time_travel))
