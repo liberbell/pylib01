@@ -1,8 +1,10 @@
 import zipfile
 
-zfile = zipfile.ZipFile("archive.zip","w")
-zfile.write("file1.txt")
-zfile.write("file2.txt")
-zfile.write("file3.txt")
+# zfile = zipfile.ZipFile("archive.zip","w")
+# zfile.write("file1.txt")
+# zfile.write("file2.txt")
+# zfile.write("file3.txt")
+#
+# zfile.close()
 
-zfile.close()
+print(zipfile.is_zipfile("archive.zip"))
