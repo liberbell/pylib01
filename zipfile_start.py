@@ -11,4 +11,4 @@ print(zipfile.is_zipfile("archive.zip"))
 
 zfile = zipfile.ZipFile("archive.zip")
 print(zfile.namelist())
-pirnt(zfile.infolist())
+print(zfile.infolist())
