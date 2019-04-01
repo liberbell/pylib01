@@ -10,5 +10,8 @@ import zipfile
 print(zipfile.is_zipfile("archive.zip"))
 
 zfile = zipfile.ZipFile("archive.zip")
-print(zfile.namelist())
-print(zfile.infolist())
+# print(zfile.namelist())
+# print(zfile.infolist())
+
+zinfo = zfile.getinfo("file1.txt")
+print(zinfo.file_size)
