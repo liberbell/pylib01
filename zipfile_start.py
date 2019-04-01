@@ -8,3 +8,5 @@ import zipfile
 # zfile.close()
 
 print(zipfile.is_zipfile("archive.zip"))
+
+zfile = zipfile.ZipFile("archive.zip")
