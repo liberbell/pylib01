@@ -20,5 +20,8 @@ using_time_travel = parser['DEFAULT']['USETimeTravel']
 # speed = parser['DEFAULT'].getfloat('Ship Speed')
 # print(speed)
 
-title = parser['Section 3']['Title']
-print(title)
+try:
+    title = parser['Section 3']['Title']
+    print(title)
+except KeyError as err:
+    print(err)
