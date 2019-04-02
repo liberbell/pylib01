@@ -17,3 +17,5 @@ print(type(using_time_travel))
 
 opd = parser['DEFAULT'].getboolean('ObeyPrimeDirective')
 print(opd)
+speed = parser['DEFAULT'].getfloat('Ship Speed')
+print(speed)
