@@ -14,3 +14,6 @@ print(type(using_time_travel))
 using_time_travel = bool(parser['DEFAULT']['USETimeTravel'])
 print(using_time_travel)
 print(type(using_time_travel))
+
+opd = parser['DEFAULT'].getboolean('ObeyPrimeDirective')
+print(opd)
