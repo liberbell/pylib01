@@ -8,4 +8,7 @@ roulette_wheel = ["black", "red", "green"]
 weight = [18,18,2]
 # print(random.choices(roulette_wheel, weight, k=10))
 
+chosen = random.sample(string.ascii_uppercase)
+print(chosen)
+
 players = ["Bill", "Jane", "Joe", "Sally", "Mike", "Lynsay"]
