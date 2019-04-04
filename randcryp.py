@@ -9,3 +9,6 @@ print(secrets.choice(moves))
 
 result = secrets.token_bytes(8)
 print(result)
+
+result = secrets.token_hex(8)
+print(result)
