@@ -12,3 +12,6 @@ print(result)
 
 result = secrets.token_hex(8)
 print(result)
+
+result = secrets.token_urlsafe()
+print(result)
