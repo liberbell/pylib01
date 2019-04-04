@@ -8,7 +8,7 @@ def genarateTempPass(numChars=8):
 
 def generateBetterPass(numChars=8):
     potentialChars = string.ascii_letters + string.digits + "+=?/!@#%"
-    while Ture:
+    while True:
         result = ''.join(secrets.choice(potentialChars) for i in range(numChars))
 
         if (any(c.isupper() for c in result) and any(c.isdigit) for c in result):
