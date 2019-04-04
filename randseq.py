@@ -14,3 +14,6 @@ chosen = random.sample(string.ascii_uppercase, 6)
 players = ["Bill", "Jane", "Joe", "Sally", "Mike", "Lynsay"]
 random.shuffle(players)
 print(players)
+
+result = random.sample(string.ascii_uppercase, k=len(string.ascii_uppercase))
+print(result)
