@@ -16,6 +16,9 @@ def generateBetterPass(numChars=8):
 
     return result
 
+resultURL = "http://my.example.com?reset="
+resultURL += secrets.token_urlsafe(15)
+print(resultURL)
 
 # print(genarateTempPass(10))
-print(generateBetterPass(10))
+# print(generateBetterPass(10))
