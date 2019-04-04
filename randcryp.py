@@ -6,3 +6,6 @@ result = os.urandom(8)
 
 moves = ["rock", "paper", "scissors"]
 print(secrets.choice(moves))
+
+result = secrets.token_bytes(8)
+print(result)
