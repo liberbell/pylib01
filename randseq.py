@@ -16,4 +16,5 @@ random.shuffle(players)
 print(players)
 
 result = random.sample(string.ascii_uppercase, k=len(string.ascii_uppercase))
-print(result)
+random.shuffle(result)
+print(''.join(result))
