@@ -12,7 +12,7 @@ def generateBetterPass(numChars=8):
         result = ''.join(secrets.choice(potentialChars) for i in range(numChars))
 
         if (any(c.isupper() for c in result) and any(c.isdigit) for c in result):
-        break
+            break
 
     return result
 
