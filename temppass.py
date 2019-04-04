@@ -16,7 +16,7 @@ def generateBetterPass(numChars=8):
 
     return result
 
-resultURL = "http://my.example.com?reset="
+resultURL = "http://my.example.com/reset="
 resultURL += secrets.token_urlsafe(15)
 print(resultURL)
 
