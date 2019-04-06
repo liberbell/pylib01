@@ -29,3 +29,6 @@ def readData():
 
         print(f"Read {curLine+1} row of data.")
         return data
+
+def calcStats():
+    data = readData()
