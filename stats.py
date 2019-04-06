@@ -13,9 +13,19 @@ sample_data2 = [2, 3, 5, 4, 3, 5, 3, 2, 5, 6, 4, 3]
 
 print(statistics.mode(sample_data2))
 
-
 def readData():
     with open("StockQuotes.csv") as dataFile:
         data = array.array('f', [])
 
         reader = csv.reader(dataFile)
+        curLine = 0
+        for row in reader:
+            if curLine == 0:
+                pass
+            else:
+                item = float(row[4])
+                data.append(item)
+            curLine += 1
+
+        print(f"Read {curLine+1} row of data.")
+        return data
