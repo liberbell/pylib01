@@ -42,3 +42,5 @@ def calcStats():
     print("Med: ", data_med)
     print("Std Div: ", data_std)
     print("Variance: ", data_var)
+
+calcStats()
