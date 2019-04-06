@@ -16,4 +16,4 @@ print("Year: ", d1.year)
 days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 print("Hour: ", t1.hour)
 print("Month: ", dt1.month)
-print("Weekday: ", dt1.weekday)
+print("Weekday: ", dt1.weekday())
