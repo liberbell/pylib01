@@ -17,4 +17,4 @@ days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 print("Hour: ", t1.hour)
 print("Month: ", dt1.month)
 print("Weekday: ", dt1.weekday())
-print(dt1[dt1.weekday()])
+print(days[dt1.weekday()])
