@@ -32,3 +32,13 @@ def readData():
 
 def calcStats():
     data = readData()
+
+    data_mean = 0
+    data_med = 0
+    data_std = 0
+    data_var = 0
+
+    print("Mean: ", data_mean)
+    print("Med: ", data_med)
+    print("Std Div: ", data_std)
+    print("Variance: ", data_var)
