@@ -10,8 +10,8 @@ dt1 = datetime.now()
 # print(dt1)
 
 
-print(d1.day)
-print(d1.year)
+print("Day:", d1.day)
+print("Year: ", d1.year)
 
-print(t1.hour)
-print(dt1.month)
+print("Hour: ", t1.hour)
+print("Month: ", dt1.month)
