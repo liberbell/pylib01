@@ -13,5 +13,6 @@ dt1 = datetime.now()
 print("Day:", d1.day)
 print("Year: ", d1.year)
 
+days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 print("Hour: ", t1.hour)
 print("Month: ", dt1.month)
