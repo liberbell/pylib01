@@ -18,3 +18,7 @@ print("Hour: ", t1.hour)
 print("Month: ", dt1.month)
 print("Weekday Num: ", dt1.weekday())
 print("Weekday: ", days[dt1.weekday()])
+
+d1 = d1.replace(year=2020, month=6, day=19)
+t1 = t1.replace(hour=5)
+dt1 = dt1.replace(year=1976, month=7)
