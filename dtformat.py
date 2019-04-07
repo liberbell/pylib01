@@ -10,9 +10,10 @@ now = datetime.datetime.now()
 # print(now.strftime("%X"))
 
 output = now.strftime("%m/%d/%y")
-print("todayl is :", output)
+print("today is :", output)
 
 output = now.strftime("%A %d, %B %Y")
-
+print("today is :", output)
 
 output = now.strftime("%m/%d/%y %I:%M %p")
+print("today is :", output)
