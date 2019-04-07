@@ -8,3 +8,4 @@ print(dt1 > dt2)
 
 delta = dt2 - dt1
 print(delta)
+print(delta.days)
