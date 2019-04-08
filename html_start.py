@@ -1,7 +1,7 @@
 from html.parser import HTMLParser
 
 
-class HTMLParser(HTMLParser):
+class MyHTMLParser(HTMLParser):
     def handler_starttag(self, tag, attrs):
         print("Encountered a start tag: ", tag)
         pos = self.getpos()
