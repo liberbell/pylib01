@@ -13,5 +13,5 @@ if status_code >= 200 and status_code < 300:
     print(resp.getheader("Content-length"))
     print(resp.headers['Content-Type'])
 
-    data = resp.read()
+    data = resp.read().decode("UTF-8")
     print(data)
