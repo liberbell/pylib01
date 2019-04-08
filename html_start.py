@@ -20,6 +20,7 @@ class HTMLParser(HTMLParser):
     def handler_comment(self, data):
         pass
 
+parser = MyHTMLParser()
 
 f = open("samplehtml.html")
 if f.mode == "r":
