@@ -5,6 +5,7 @@ sample_url = "http://server.example.com:8080/example.html?val1=1&val2=Hello+Worl
 result = urllib.parse.urlparse(sample_url)
 print(result)
 print(result.scheme, result.hostname, result.path)
+print(result.geturl())
 
 sample_string = "Hello El Nino"
 
