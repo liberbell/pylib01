@@ -8,5 +8,7 @@ status_code = resp.status
 print(status_code)
 
 
-if status >= 200 and status_code < 300:
-    pass
+if status_code >= 200 and status_code < 300:
+    print(resp.getheaders())
+    print(resp.getheaders("Content-length"))
+    print(resp.getheaders('Content-type'))
