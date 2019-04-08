@@ -25,3 +25,4 @@ parser = MyHTMLParser()
 f = open("samplehtml.html")
 if f.mode == "r":
     contents = f.read()
+    parser.feed(contents)
