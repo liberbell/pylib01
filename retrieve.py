@@ -10,5 +10,5 @@ print(status_code)
 
 if status_code >= 200 and status_code < 300:
     print(resp.getheaders())
-    print(resp.getheaders("Content-length"))
-    print(resp.getheaders('Content-type'))
+    print(resp.getheader("Content-length"))
+    print(resp.getheader('Content-type'))
