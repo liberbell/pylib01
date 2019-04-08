@@ -3,7 +3,9 @@ from html.parser import HTMLParser
 
 class HTMLParser(HTMLParser):
     def handler_starttag(self, tag, attrs):
-        pass
+        print("Encountered a start tag: ", tag)
+        pos = self.getpos()
+        print("At line: ", pos[0],"and char ", pos[1])
 
     def handler_endtag(self, tag):
         pass
