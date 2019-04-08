@@ -19,3 +19,8 @@ class HTMLParser(HTMLParser):
 
     def handler_comment(self, data):
         pass
+
+
+f = open("samplehtml.html")
+if f.mode == "r":
+    contents = f.read()
