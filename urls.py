@@ -9,6 +9,7 @@ result = urllib.parse.urlparse(sample_url)
 
 sample_string = "Hello El こんにちは"
 print(urllib.parse.quote(sample_string))
+print(urllib.parse.quote_plus(sample_string))
 
 query_data = {
     "Name": "Jhon Doe",
