@@ -16,5 +16,5 @@ oneyear = datetime.timedelta(days=365)
 oneweek = datetime.timedelta(weeks=1)
 
 print("One year from now will be: ", now + oneyear)
-print("One week from now will be: ")
-print("One week ago was: ")
+print("One week from now will be: ", now + oneweek)
+print("One week ago was: ", now - oneweek)
