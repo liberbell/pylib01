@@ -1,6 +1,8 @@
 import urllib.request
 import json
 
+req = urllib.request.urlopen("http://httpbin.org/json")
+data = req.read().decode("utf-8")
 
 objdata = {
     "name": "Joe Marine",
