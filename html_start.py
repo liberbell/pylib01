@@ -13,6 +13,10 @@ class MyHTMLParser(HTMLParser):
             for a in attrs:
                 print("\t",a[0],"=",a[1])
 
+        global metacount
+        if tag == "meta":
+            metacount +=
+
     def handle_endtag(self, tag):
         print("Encountered an end tag: ", tag)
 
@@ -28,3 +32,5 @@ f = open("samplehtml.html")
 if f.mode == "r":
     contents = f.read()
     parser.feed(contents)
+
+print(f"{metacount} meta tags were found")
