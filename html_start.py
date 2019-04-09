@@ -2,10 +2,11 @@ from html.parser import HTMLParser
 
 
 class MyHTMLParser(HTMLParser):
+
     def handler_starttag(self, tag, attrs):
         print("Encountered a start tag: ", tag)
         pos = self.getpos()
-        print("At line: ", pos[0],"and char ", pos[1])
+        print("At line: ", pos[0]," and char: ", pos[1])
         if len(attrs) > 0:
             print("\Attributes")
             for a in attrs:
