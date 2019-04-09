@@ -3,7 +3,7 @@ from html.parser import HTMLParser
 
 class MyHTMLParser(HTMLParser):
 
-    def handler_starttag(self, tag, attrs):
+    def handle_starttag(self, tag, attrs):
         print("Encountered a start tag: ", tag)
         pos = self.getpos()
         print("At line: ", pos[0]," and char: ", pos[1])
@@ -12,13 +12,13 @@ class MyHTMLParser(HTMLParser):
             for a in attrs:
                 print("\t",a[0],"=",a[1])
 
-    def handler_endtag(self, tag):
+    def handle_endtag(self, tag):
         pass
 
-    def handler_data(self, data):
+    def handle_data(self, data):
         pass
 
-    def handler_comment(self, data):
+    def handle_comment(self, data):
         pass
 
 parser = MyHTMLParser()
