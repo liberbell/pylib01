@@ -8,7 +8,7 @@ class MyHTMLParser(HTMLParser):
         pos = self.getpos()
         print("At line: ", pos[0]," and char: ", pos[1])
         if len(attrs) > 0:
-            print("\Attributes")
+            print("\tAttributes")
             for a in attrs:
                 print("\t",a[0],"=",a[1])
 
