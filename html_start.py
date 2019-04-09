@@ -15,7 +15,7 @@ class MyHTMLParser(HTMLParser):
 
         global metacount
         if tag == "meta":
-            metacount +=
+            metacount += 1
 
     def handle_endtag(self, tag):
         print("Encountered an end tag: ", tag)
