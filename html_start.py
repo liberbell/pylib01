@@ -13,13 +13,13 @@ class MyHTMLParser(HTMLParser):
                 print("\t",a[0],"=",a[1])
 
     def handle_endtag(self, tag):
-        pass
+        print("Encountered an end tag: ", tag)
 
     def handle_data(self, data):
-        pass
+        print("Encountered some text: ", data)
 
     def handle_comment(self, data):
-        pass
+        print("Encountered a comment: ", data)
 
 parser = MyHTMLParser()
 
