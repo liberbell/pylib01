@@ -8,6 +8,9 @@ print(data)
 obj = json.loads(data)
 print(obj["slideshow"]["author"])
 
+for slide in obj["slideshow"]["slides"]:
+    print(slide["title"])
+
 objdata = {
     "name": "Joe Marine",
     "author": True,
