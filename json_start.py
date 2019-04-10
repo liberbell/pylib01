@@ -6,10 +6,10 @@ data = req.read().decode("utf-8")
 print(data)
 
 obj = json.loads(data)
-print(obj["slideshow"]["author"])
-
-for slide in obj["slideshow"]["slides"]:
-    print(slide["title"])
+# print(obj["slideshow"]["author"])
+#
+# for slide in obj["slideshow"]["slides"]:
+#     print(slide["title"])
 
 objdata = {
     "name": "Joe Marine",
