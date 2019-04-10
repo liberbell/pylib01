@@ -18,3 +18,6 @@ objdata = {
     "Leading Python", "Advanced Python", "Python Standard Library Essential Training"
     ]
 }
+
+with open("jsonoutput.json","w") as fp:
+    json.dump(objdata, fp, indent=4)
